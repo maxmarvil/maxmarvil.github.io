@@ -2,7 +2,7 @@ body {margin: 0;padding: 0;}
 
 .left-aside {
   /* BEGIN (write your solution here) */
-  
+  float: right;
   /* END */
   width: 20%;
   height: 200px;
@@ -26,7 +26,7 @@ body {margin: 0;padding: 0;}
 
 main {
   /* BEGIN (write your solution here) */
-  
+  float: right;
   /* END */
   width: 60%;
   height: 200px;
@@ -39,7 +39,7 @@ main {
 
 footer {
   /* BEGIN (write your solution here) */
-  
+  clear: both;
   /* END */
   height: 120px;
 
