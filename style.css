@@ -1,50 +1,23 @@
-body {margin: 0;padding: 0;}
-
-.left-aside {
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
   /* BEGIN (write your solution here) */
-  float: right;
+  position: relative;
+  opacity: 0,5;
   /* END */
-  width: 20%;
-  height: 200px;
-
-  background: #2196F3;
-
-  text-align: center;
 }
 
-.right-aside {
+.circle-blue {
   /* BEGIN (write your solution here) */
-  
+  background-color: blue;
+  z-index: 2;
   /* END */
-  width: 20%;
-  height: 200px;
-
-  background: #2196F3;
-
-  text-align: center;
 }
 
-main {
+.circle-red {
   /* BEGIN (write your solution here) */
-  float: right;
+  background-color: red;
+  z-index: 1;
   /* END */
-  width: 60%;
-  height: 200px;
-
-  background: #3F51B5;
-  color: #FFF;
-
-  text-align: center;
-}
-
-footer {
-  /* BEGIN (write your solution here) */
-  clear: both;
-  /* END */
-  height: 120px;
-
-  background: #00BCD4;
-  color: #FFF;
-
-  text-align: center;
 }
