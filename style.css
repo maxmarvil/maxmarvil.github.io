@@ -68,13 +68,16 @@ h2 {
 
 .fixed-header {
   /* BEGIN (write your solution here) */
-  
+  position: fixed;
+  top: 0px;
+  left:0px;
+  right: 0px;
   /* END */
 }
 
 .padding-header {
   /* BEGIN (write your solution here) */
-  
+  padding-top: 100px;
   /* END */
 }
 
