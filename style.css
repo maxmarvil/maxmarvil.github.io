@@ -3,7 +3,9 @@
   height: 300px;
   border-radius: 50%;
   /* BEGIN (write your solution here) */
-  position: relative;
+  position: absolute;
+  top:0px;
+  left: 0px;
   opacity: 0,5;
   /* END */
 }
