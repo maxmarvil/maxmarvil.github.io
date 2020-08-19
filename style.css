@@ -1,25 +1,70 @@
-.circle {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w70 {
+  width: 70%;
+}
+
+
+header {
   /* BEGIN (write your solution here) */
-  position: absolute;
-  top:0px;
-  left: 0px;
-  opacity: 0,5;
+  
+  /* END */
+
+  background: #00BCD4;
+  color: #FFF;
+
+  padding: 0 20px;
+}
+
+header .name {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+header nav ul {
+  /* BEGIN (write your solution here) */
+  
+  /* END */
+
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  width: 20%;
+}
+
+main {
+  /* BEGIN (write your solution here) */
+  
   /* END */
 }
 
-.circle-blue {
-  /* BEGIN (write your solution here) */
-  background-color: blue;
-  z-index: 2;
-  /* END */
+section {
+  padding: 30px 50px;
+  box-sizing: border-box;
+
+  background: #03A9F4;
+  color: #FFF;
 }
 
-.circle-red {
-  /* BEGIN (write your solution here) */
-  background-color: red;
-  z-index: 1;
-  /* END */
+.aside-block {
+  height: 100px;
+  padding: 30px 50px;
+  box-sizing: border-box;
+
+  background: #673AB7;
+  color: #FFF;
 }
+
